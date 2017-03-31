@@ -1,13 +1,9 @@
 # Carpool Application
-
-This is an Carpool Application linking student drivers with riders, a website which drivers and passengers can use it to find each other, save time and make benifits. 
+An application which link student drivers and passengers. The goal is to save time and make benefits.
 
 ## Motivation
-It was a personal startup project, we will deploy our work in the repository later when we find a better way to do it with Heroku. But for now we want to declare some of the idea:
-A and B live in the same neighbourhood and they go to the same school and have similar schedules, but A go to school by bus with take a lot of time, and B go to school driving which cost a lot for gas. Shouldn't they be carpooling to save both time and money? and making friends?
-Acctually that's I and several friends' real condition. We live farther than we'd like from our school, and we like to save on gas and get benifit express-land by carpooling. But our schedules don't always allow this between us and it may get cubersome to remember whose turn it to drive.
-Other carpooling apps I've seen use GPS and your car's make and model to determine the dollar value each passenger owes the driver.  They may even help organize ad-hoc rides.  This isn't what we're looking for, though; we're not interested in exchanging money, just sharing the burden.
-Instead of an ads system, we are going to match carpoolers based on daily routines. And we would suggest user login with their facebook to get data of their personal routines, for better matching suggestions.
+Imagine A and B live close by, they go to same school and have similar class schedules. A goes to school by bus, which takes time, whereas B drives to school, which costs money. Why don’t they share the ride, and the costs together? In this way, they can both save time and money. 
+The application will require users to login with facebook account, do the calculation based on each user’s daily routine, and find the best matching carpool partner.
 
 ## Getting Started
 
@@ -85,3 +81,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
