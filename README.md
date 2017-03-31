@@ -1,19 +1,14 @@
 # Carpool Application
 
-This is an Carpool Application linking student drivers with riders, a website which drivers and passengers can use it to find each other, save time and make benifits.
+This is an Carpool Application linking student drivers with riders, a website which drivers and passengers can use it to find each other, save time and make benifits. It was a personal startup project, we will deploy my works in the repository later when we find a better way to do it with Heroku. But for now we want to declare some of the idea:
+
+A and B live in the same neighbourhood and they go to the same school and have similar schedules, but A go to school by bus with take a lot of time, and B go to school driving which cost a lot for gas. Shouldn't they be carpooling to save both time and money? and making friends?
+
+Instead of an ads system, we are going to match carpoolers based on daily routines. And we would suggest user login with their facebook to get data of their personal routines, for better matching suggestions.
 
 ## Getting Started
 
 This README would normally document whatever steps are necessary to get the application up and running.
-
-## Architecture
-
-There will be two parts:
-A REST API server
-    - Node.js
-A responsive front-end
-    - AngularJS
-
 
 ## Documentation
 
