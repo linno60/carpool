@@ -1,36 +1,60 @@
-# carpool
+# Carpool Application
 
-This is an Carpool website which drivers and passengers can use it to find each other, to save time and make benifits.
+This is an Carpool Application linking student drivers with riders, a website which drivers and passengers can use it to find each other, save time and make benifits.
 
-Getting Started
+## Getting Started
 
 This README would normally document whatever steps are necessary to get the application up and running.
 
-Things you may want to cover:
+## Architecture
 
-Ruby version
-
-System dependencies
-
-Configuration
-
-Database creation
-
-Database initialization
-
-How to run the test suite
-
-Services (job queues, cache servers, search engines, etc.)
-
-Deployment instructions
-
-…
-
-Please feel free to use a different markup language if you do not plan to run rake doc:app.
+There will be two parts:
+A REST API server
+    - Node.js
+A responsive front-end
+    - AngularJS
 
 
+## Documentation
 
-The MIT License (MIT)
+## Installation
+
+ Install [node.js]
+ http://nodejs.org/
+ `npm install` to install all dependencies
+ Install [mysql]
+ http://mysql.com and run `./sql/deploy.sh`  may need to edit the credentials in the script depending on 
+  how you set up mysql
+
+## Running Locally
+
+ `./scripts/start-server.sh`
+
+## Running Tests
+
+
+Run  `test-client.sh` script to run all client unit tests.
+
+
+Run  `test-server.sh` script to run all server unit tests.
+
+
+## End-To-End Tests
+
+Run the application locally and run the `e2e-test.sh` script to run all end-to-end tests.
+
+In a different terminal window or tab:
+`./scripts/e2e-test.sh`
+
+
+
+## Development
+
+Please feel free use a different markup language if you do not plan to run rake doc:app.
+
+
+
+## The MIT License (MIT)
 
 Copyright (c) 2015
 
